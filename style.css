@@ -1,12 +1,6 @@
 .gallery {
-    width: 100%;
-    text-align: center;
-}
-
-.visible {
-    display: block;
-}
-
-img {
-    display: none;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    padding-top: 200px;
 }
