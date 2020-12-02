@@ -1,3 +1,6 @@
 const img = new Image();
+img.src = 'https://picsum.photos/700/300';
 
-document.querySelector('galleryJS').appendChild(img)
+
+let gallery = document.querySelector('.galleryJS')
+gallery.appendChild(img);
